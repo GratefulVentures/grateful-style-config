@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-grateful-bundle",
+  "version": "1.0.0",
+  "description": "ESLint bundle for JavaScript projects at Grateful Ventures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grateful Ventures, LLC",
+  "license": "MIT",
+  "bin": {
+    "eslint": "node_modules/eslint/bin/eslint.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
+  },
+  "bundleDependencies": [
+    "babel-eslint",
+    "eslint",
+    "eslint-config-grateful",
+    "eslint-config-prettier",
+    "eslint-plugin-prettier",
+    "eslint-plugin-react"
+  ],
+  "keywords": [
+    "code guide",
+    "code quality",
+    "code style",
+    "config",
+    "eslint",
+    "eslintconfig",
+    "eslintplugin",
+    "grateful",
+    "jscs",
+    "jslint",
+    "jshint",
+    "prettier",
+    "styleguide"
+  ]
+}

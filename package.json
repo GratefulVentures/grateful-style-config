@@ -1,0 +1,23 @@
+{
+  "name": "@grateful/javascript",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "grateful",
+    "javascript",
+    "prettier",
+    "styleguide"
+  ],
+  "version": "1.0.0",
+  "description": "Our ESLint plugins for JavaScript projects at Grateful Ventures",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grateful Ventures, LLC",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.9.1"
+  }
+}

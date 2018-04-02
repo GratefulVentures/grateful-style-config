@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-grateful-base",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslingplugin",
+    "grateful",
+    "styleguide"
+  ],
+  "version": "1.0.0",
+  "description": "ESLint plugin for JavaScript projects at Grateful Ventures",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grateful Ventures, LLC",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "prettier": "^1.11.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "prettier": "^1.11.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
