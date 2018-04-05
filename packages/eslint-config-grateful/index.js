@@ -13,11 +13,9 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:prettier/recommended'
   ],
-  plugins: [
-    'react'
-  ],
+  plugins: ['react'],
   rules: {
-    'prettier/prettier': ['error', {singleQuote: true}],
+    'prettier/prettier': ['error', { singleQuote: true }],
     'react/prop-types': ['warn'],
     'react/jsx-no-comment-textnodes': ['warn']
   }
