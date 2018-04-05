@@ -21,7 +21,6 @@
   "bundleDependencies": [
     "babel-eslint",
     "eslint",
-    "eslint-config-grateful",
     "eslint-config-prettier",
     "eslint-plugin-prettier",
     "eslint-plugin-react"
@@ -40,5 +39,7 @@
     "jshint",
     "prettier",
     "styleguide"
-  ]
+  ],
+  "devDependencies": {
+  }
 }
