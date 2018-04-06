@@ -10,8 +10,8 @@ ESLint configurations and bundles to enable rules and formatting based on:
 
 The following ESLint packages are maintained using [Lerna](https://github.com/lerna/lerna#commands).
 
-* [NodeJS](#NodeJS) _`packages/eslint-config-grateful-node`_
-* [ReactJS](#ReactJS) _`packages/eslint-config-grateful-react`_
+* [NodeJS](#nodejs) _`packages/eslint-config-grateful-node`_
+* [ReactJS](#reactjs) _`packages/eslint-config-grateful-react`_
 
 #### __NodeJS__
 
