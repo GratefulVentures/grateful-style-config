@@ -10,14 +10,10 @@ ESLint configurations and bundles to enable rules and formatting based on:
 ## Packages
 
 * [eslint-config-node](#eslint-config-node)
-* [eslint-config-node-bundle](#eslint-config-node-bundle)
 * [eslint-config-react](#eslint-config-react)
-* [eslint-config-react-bundle](#eslint-config-react-bundle)
 
 
 ### eslint-config-node
-
-_Recommended for `atom-ide` and `linter-eslint`_
 
 1. Install the sharable config:
 
@@ -44,29 +40,9 @@ _Recommended for `atom-ide` and `linter-eslint`_
   }
   ```
 
-### eslint-config-node-bundle
-
-_Caveat! This currently a work in progress; doesn't work well with Atom_
-
-1. Install the bundle:
-
-  ```
-  npm i -D @grateful/eslint-config-node-bundle
-  ```
-
-2. Add an ESLint config file, `.eslintrc`:
-
-  ```json
-  {
-    "extends": "@grateful/node-bundle"
-  }
-  ```
-
 
 
 ### eslint-config-react
-
-_Recommended for `atom-ide` and `linter-eslint`_
 
 1. Install the sharable config:
 
@@ -92,24 +68,5 @@ _Recommended for `atom-ide` and `linter-eslint`_
   ```json
   {
     "extends": "@grateful/react"
-  }
-  ```
-
-
-### eslint-config-react-bundle
-
-_Caveat! This currently a work in progress; doesn't work well with Atom_
-
-1. Install the bundle:
-
-  ```
-  npm i -D @grateful/eslint-config-react-bundle
-  ```
-
-2. Add an ESLint config file, `.eslintrc`:
-
-  ```json
-  {
-    "extends": "@grateful/react-bundle"
   }
   ```
