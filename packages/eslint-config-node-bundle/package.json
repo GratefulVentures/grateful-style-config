@@ -1,6 +1,6 @@
 {
   "name": "@grateful/eslint-config-node-bundle",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint bundle for NodeJS projects at Grateful Ventures",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,6 @@
   },
   "author": "Grateful Ventures, LLC",
   "license": "MIT",
-  "bin": {
-    "eslint": "node_modules/eslint/bin/eslint.js"
-  },
   "dependencies": {
     "@grateful/eslint-config-node": "^1.1.0",
     "eslint": "^4.19.1",
