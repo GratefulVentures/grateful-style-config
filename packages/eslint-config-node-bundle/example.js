@@ -1,24 +1,16 @@
-import React from 'react';
-import config from './index';
+const file = require('./index');
 
-const three = 'THREE';
-const [one, two] = [1, 2];
-const { env } = config;
+var isNodeEnv = config => {
+  let result = false;
 
-export default class Component extends React {
-  constructor(props) {
-    super(props);
-    this.env = env;
+  if (__dirname && process.env.NODE_ENV) {
+    let { env } = config;
+    result = env.node;
   }
 
-  render() {
-    return (
-      <div className="component">
-        <p className="component-name">
-          Component <span className="one">{one}</span>{' '}
-          <span className="two">{two}</span> {three}
-        </p>
-      </div>
-    );
-  }
-}
+  return encodeURIComponent(result);
+};
+
+module.exports = {
+  isNodeEnv: isNodeEnv(file)
+};
