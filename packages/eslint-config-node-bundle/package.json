@@ -1,9 +1,11 @@
 {
   "name": "@grateful/eslint-config-node-bundle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint bundle for NodeJS projects at Grateful Ventures",
   "main": "index.js",
   "scripts": {
+    "bundle-dependencies": "bundle-dependencies",
+    "bundle-publish": "npm run bundle-dependencies update; git commit -m 'Bundled dependencies.' ./package.json; git push; rm -fr ./node_modules; npm install --production $(bundle-dependencies list-bundled-dependencies); npm dedupe; npm prune; npm publish; npm install;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Grateful Ventures, LLC",
@@ -18,13 +20,6 @@
     "eslint-plugin-prettier": "^2.6.0",
     "prettier": "^1.11.1"
   },
-  "bundleDependencies": [
-    "@grateful/eslint-config-node",
-    "eslint",
-    "eslint-config-prettier",
-    "eslint-plugin-prettier",
-    "prettier"
-  ],
   "keywords": [
     "code guide",
     "code quality",
@@ -46,5 +41,12 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "bundledDependencies": [
+    "@grateful/eslint-config-node",
+    "eslint",
+    "eslint-config-prettier",
+    "eslint-plugin-prettier",
+    "prettier"
+  ]
 }
