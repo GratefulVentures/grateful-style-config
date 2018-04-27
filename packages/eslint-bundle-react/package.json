@@ -44,7 +44,6 @@
     "prettier",
     "styleguide"
   ],
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/GratefulVentures/javascript.git"
