@@ -12,6 +12,8 @@
     "eslint": "node_modules/eslint/bin/eslint.js"
   },
   "dependencies": {
+    "@grateful/eslint-config-node": "^1.1.0",
+    "@grateful/eslint-config-react": "^1.0.0",
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
@@ -19,6 +21,8 @@
     "prettier": "^1.11.1"
   },
   "bundleDependencies": [
+    "@grateful/eslint-config-node",
+    "@grateful/eslint-config-react",
     "babel-eslint",
     "eslint",
     "eslint-config-prettier",
@@ -40,6 +44,5 @@
     "prettier",
     "styleguide"
   ],
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

@@ -1,4 +1,3 @@
 module.exports = {
-  extends: ['plugin:grateful/node']
-  plugins: ['grateful'],
+  extends: ['@grateful/node', '@grateful/react']
 };

@@ -4,6 +4,16 @@
 	"lockfileVersion": 1,
 	"requires": true,
 	"dependencies": {
+		"@grateful/eslint-config-node": {
+			"version": "1.1.0",
+			"resolved": "https://registry.npmjs.org/@grateful/eslint-config-node/-/eslint-config-node-1.1.0.tgz",
+			"integrity": "sha512-6Su4DQw8Lzk32M0JyTOXSqDdoD91RPhULt/WRkcV/a6RUUUAqZhbGcx1NgyJe8gdFVZzwggT+wYPV3gYf2QyTA=="
+		},
+		"@grateful/eslint-config-react": {
+			"version": "1.0.0",
+			"resolved": "https://registry.npmjs.org/@grateful/eslint-config-react/-/eslint-config-react-1.0.0.tgz",
+			"integrity": "sha512-vmWt4Oe+yRWKnDq01f84tNq0wLVLBAWZKY1WRKe8wUXhLI5OawSWRuLrl+U7hDFPpSW18vAhXdveXl6GRCsYwA=="
+		},
 		"acorn": {
 			"version": "5.5.3",
 			"resolved": "https://registry.npmjs.org/acorn/-/acorn-5.5.3.tgz",
