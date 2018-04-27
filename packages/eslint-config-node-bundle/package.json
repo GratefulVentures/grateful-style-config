@@ -1,5 +1,5 @@
 {
-  "name": "@grateful/eslint-bundle-node",
+  "name": "@grateful/eslint-config-node-bundle",
   "version": "0.0.1",
   "description": "ESLint bundle for NodeJS projects at Grateful Ventures",
   "main": "index.js",
