@@ -1,0 +1,53 @@
+{
+  "name": "@grateful/eslint-bundle",
+  "version": "0.0.1",
+  "description": "ESLint bundle for JavaScript projects at Grateful Ventures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grateful Ventures, LLC",
+  "license": "MIT",
+  "bin": {
+    "eslint": "node_modules/eslint/bin/eslint.js"
+  },
+  "dependencies": {
+    "@grateful/eslint-config-node": "^1.1.0",
+    "@grateful/eslint-config-react": "^1.0.0",
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier": "^1.11.1"
+  },
+  "bundleDependencies": [
+    "@grateful/eslint-config-node",
+    "@grateful/eslint-config-react",
+    "babel-eslint",
+    "eslint",
+    "eslint-config-prettier",
+    "eslint-plugin-prettier",
+    "eslint-plugin-react"
+  ],
+  "keywords": [
+    "code guide",
+    "code quality",
+    "code style",
+    "config",
+    "eslint",
+    "eslintconfig",
+    "eslintplugin",
+    "grateful",
+    "jscs",
+    "jslint",
+    "jshint",
+    "prettier",
+    "styleguide"
+  ],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GratefulVentures/javascript.git"
+  }
+}
