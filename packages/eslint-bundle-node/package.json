@@ -43,5 +43,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/GratefulVentures/javascript.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
