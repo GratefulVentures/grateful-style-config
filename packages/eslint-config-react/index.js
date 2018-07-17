@@ -15,7 +15,6 @@ module.exports = {
   ],
   plugins: ['react'],
   rules: {
-    'prettier/prettier': ['error', { singleQuote: true }],
     'react/prop-types': ['warn'],
     'react/jsx-no-comment-textnodes': ['warn']
   }
