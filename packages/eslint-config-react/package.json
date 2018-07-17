@@ -8,7 +8,7 @@
     "grateful",
     "styleguide"
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint config for React projects at Grateful Ventures",
   "repository": {
     "type": "git",
