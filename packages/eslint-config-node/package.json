@@ -8,7 +8,7 @@
     "node",
     "styleguide"
   ],
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ESLint plugin for JavaScript projects at Grateful Ventures",
   "repository": {
     "type": "git",
